@@ -15,7 +15,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/cases/:caseNumber" element={<Case />} />
+          <Route exact path="/books/:bookNumber/cases/:caseNumber" element={<Case />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

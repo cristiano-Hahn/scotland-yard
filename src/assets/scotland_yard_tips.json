@@ -1,6 +1,7 @@
 {
     "books": [
       {
+        "number": 1,
         "name": "Livro 1",
         "cases": [
           {
@@ -1526,6 +1527,7 @@
         ]
       },
       {
+        "number": 2,
         "name": "Livro 2",
         "cases": [
           {
@@ -3051,6 +3053,7 @@
         ]
       },
       {
+        "number": 3,
         "name": "Livro 3",
         "cases": [
           {
@@ -4586,6 +4589,7 @@
         ]
       },
       {
+        "number": 4,
         "name": "Livro 4",
         "cases": [
           {
@@ -6111,6 +6115,7 @@
         ]
       },
       {
+        "number": 5,
         "name": "Livro 5",
         "cases": [
           {
@@ -7636,6 +7641,7 @@
         ]
       },
       {
+        "number": 6,
         "name": "Livro 6",
         "cases": [
           {

@@ -49,7 +49,7 @@ function Home() {
                     </Grid>
                     <Grid item xs={12}>
                         {scotlandYardTips.books.map((book) =>
-                            <Grid container key={book.name}>
+                            <Grid container key={book.number}>
                                 <Grid item xs={12}>
                                     <Book>
                                         {book.name}
@@ -58,9 +58,9 @@ function Home() {
 
                                 {book.cases.map((caseNumber) =>
                                     <GridCases item sm={3} xs={6} key={caseNumber.name} >
-                                        <CaseButton 
-                                        variant='contained'
-                                        onClick={() => navigate(`/cases/${caseNumber.number}`)}
+                                        <CaseButton
+                                            variant='contained'
+                                            onClick={() => navigate(`/books/${book.number}/cases/${caseNumber.number}`)}
                                         >
                                             {caseNumber.name}
                                         </CaseButton>
