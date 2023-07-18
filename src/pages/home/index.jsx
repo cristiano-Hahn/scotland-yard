@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Button, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import scotlandYardTips from '../../assets/scotland_yard_tips.json'
+import { useNavigate } from 'react-router-dom';
 
 const Title = styled(Box)(({ theme }) => ({
     ...theme.typography.h1,
@@ -37,6 +38,8 @@ const GridCases = styled(Grid)(() => ({
 }));
 
 function Home() {
+    const navigate = useNavigate();
+
     return (
         <>
             <MainScreen sx={{ flexGrow: 1 }}>
@@ -55,7 +58,10 @@ function Home() {
 
                                 {book.cases.map((caseNumber) =>
                                     <GridCases item sm={3} xs={6} key={caseNumber.name} >
-                                        <CaseButton variant='contained'>
+                                        <CaseButton 
+                                        variant='contained'
+                                        onClick={() => navigate(`/cases/${caseNumber.number}`)}
+                                        >
                                             {caseNumber.name}
                                         </CaseButton>
                                     </GridCases>

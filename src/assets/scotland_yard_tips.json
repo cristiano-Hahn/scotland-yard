@@ -4,6 +4,7 @@
         "name": "Livro 1",
         "cases": [
           {
+            "number": 1,
             "name": "Caso 1",
             "clues": [
               {
@@ -79,6 +80,7 @@
             ]
           },
           {
+            "number": 2,
             "name": "Caso 2",
             "clues": [
               {
@@ -154,6 +156,7 @@
             ]
           },
           {
+            "number": 3,
             "name": "Caso 3",
             "clues": [
               {
@@ -229,6 +232,7 @@
             ]
           },
           {
+            "number": 4,
             "name": "Caso 4",
             "clues": [
               {
@@ -304,6 +308,7 @@
             ]
           },
           {
+            "number": 5,
             "name": "Caso 5",
             "clues": [
               {
@@ -379,6 +384,7 @@
             ]
           },
           {
+            "number": 6,
             "name": "Caso 6",
             "clues": [
               {
@@ -454,6 +460,7 @@
             ]
           },
           {
+            "number": 7,
             "name": "Caso 7",
             "clues": [
               {
@@ -529,6 +536,7 @@
             ]
           },
           {
+            "number": 8,
             "name": "Caso 8",
             "clues": [
               {
@@ -604,6 +612,7 @@
             ]
           },
           {
+            "number": 9,
             "name": "Caso 9",
             "clues": [
               {
@@ -679,6 +688,7 @@
             ]
           },
           {
+            "number": 10,
             "name": "Caso 10",
             "clues": [
               {
@@ -754,6 +764,7 @@
             ]
           },
           {
+            "number": 11,
             "name": "Caso 11",
             "clues": [
               {
@@ -829,6 +840,7 @@
             ]
           },
           {
+            "number": 12,
             "name": "Caso 12",
             "clues": [
               {
@@ -904,6 +916,7 @@
             ]
           },
           {
+            "number": 13,
             "name": "Caso 13",
             "clues": [
               {
@@ -979,6 +992,7 @@
             ]
           },
           {
+            "number": 14,
             "name": "Caso 14",
             "clues": [
               {
@@ -1054,6 +1068,7 @@
             ]
           },
           {
+            "number": 15,
             "name": "Caso 15",
             "clues": [
               {
@@ -1129,6 +1144,7 @@
             ]
           },
           {
+            "number": 16,
             "name": "Caso 16",
             "clues": [
               {
@@ -1204,6 +1220,7 @@
             ]
           },
           {
+            "number": 17,
             "name": "Caso 17",
             "clues": [
               {
@@ -1279,6 +1296,7 @@
             ]
           },
           {
+            "number": 18,
             "name": "Caso 18",
             "clues": [
               {
@@ -1354,6 +1372,7 @@
             ]
           },
           {
+            "number": 19,
             "name": "Caso 19",
             "clues": [
               {
@@ -1429,6 +1448,7 @@
             ]
           },
           {
+            "number": 20,
             "name": "Caso 20",
             "clues": [
               {
@@ -1509,6 +1529,7 @@
         "name": "Livro 2",
         "cases": [
           {
+            "number": 21,
             "name": "Caso 21",
             "clues": [
               {
@@ -1584,6 +1605,7 @@
             ]
           },
           {
+            "number": 22,
             "name": "Caso 22",
             "clues": [
               {
@@ -1659,6 +1681,7 @@
             ]
           },
           {
+            "number": 23,
             "name": "Caso 23",
             "clues": [
               {
@@ -1734,6 +1757,7 @@
             ]
           },
           {
+            "number": 24,
             "name": "Caso 24",
             "clues": [
               {
@@ -1809,6 +1833,7 @@
             ]
           },
           {
+            "number": 25,
             "name": "Caso 25",
             "clues": [
               {
@@ -1884,6 +1909,7 @@
             ]
           },
           {
+            "number": 26,
             "name": "Caso 26",
             "clues": [
               {
@@ -1959,6 +1985,7 @@
             ]
           },
           {
+            "number": 27,
             "name": "Caso 27",
             "clues": [
               {
@@ -2034,6 +2061,7 @@
             ]
           },
           {
+            "number": 28,
             "name": "Caso 28",
             "clues": [
               {
@@ -2109,6 +2137,7 @@
             ]
           },
           {
+            "number": 29,
             "name": "Caso 29",
             "clues": [
               {
@@ -2184,6 +2213,7 @@
             ]
           },
           {
+            "number": 30,
             "name": "Caso 30",
             "clues": [
               {
@@ -2259,6 +2289,7 @@
             ]
           },
           {
+            "number": 31,
             "name": "Caso 31",
             "clues": [
               {
@@ -2334,6 +2365,7 @@
             ]
           },
           {
+            "number": 32,
             "name": "Caso 32",
             "clues": [
               {
@@ -2409,6 +2441,7 @@
             ]
           },
           {
+            "number": 33,
             "name": "Caso 33",
             "clues": [
               {
@@ -2484,6 +2517,7 @@
             ]
           },
           {
+            "number": 34,
             "name": "Caso 34",
             "clues": [
               {
@@ -2559,6 +2593,7 @@
             ]
           },
           {
+            "number": 35,
             "name": "Caso 35",
             "clues": [
               {
@@ -2634,6 +2669,7 @@
             ]
           },
           {
+            "number": 36,
             "name": "Caso 36",
             "clues": [
               {
@@ -2709,6 +2745,7 @@
             ]
           },
           {
+            "number": 37,
             "name": "Caso 37",
             "clues": [
               {
@@ -2784,6 +2821,7 @@
             ]
           },
           {
+            "number": 38,
             "name": "Caso 38",
             "clues": [
               {
@@ -2859,6 +2897,7 @@
             ]
           },
           {
+            "number": 39,
             "name": "Caso 39",
             "clues": [
               {
@@ -2934,6 +2973,7 @@
             ]
           },
           {
+            "number": 40,
             "name": "Caso 40",
             "clues": [
               {
@@ -3014,6 +3054,7 @@
         "name": "Livro 3",
         "cases": [
           {
+            "number": 41,
             "name": "Caso 41",
             "clues": [
               {
@@ -3089,6 +3130,7 @@
             ]
           },
           {
+            "number": 42,
             "name": "Caso 42",
             "clues": [
               {
@@ -3164,6 +3206,7 @@
             ]
           },
           {
+            "number": 43,
             "name": "Caso 43",
             "clues": [
               {
@@ -3239,6 +3282,7 @@
             ]
           },
           {
+            "number": 44,
             "name": "Caso 44",
             "clues": [
               {
@@ -3314,6 +3358,7 @@
             ]
           },
           {
+            "number": 45,
             "name": "Caso 45",
             "clues": [
               {
@@ -3389,6 +3434,7 @@
             ]
           },
           {
+            "number": 46,
             "name": "Caso 46",
             "clues": [
               {
@@ -3464,6 +3510,7 @@
             ]
           },
           {
+            "number": 47,
             "name": "Caso 47",
             "clues": [
               {
@@ -3539,6 +3586,7 @@
             ]
           },
           {
+            "number": 48,
             "name": "Caso 48",
             "clues": [
               {
@@ -3614,6 +3662,7 @@
             ]
           },
           {
+            "number": 49,
             "name": "Caso 49",
             "clues": [
               {
@@ -3689,6 +3738,7 @@
             ]
           },
           {
+            "number": 50,
             "name": "Caso 50",
             "clues": [
               {
@@ -3764,6 +3814,7 @@
             ]
           },
           {
+            "number": 51,
             "name": "Caso 51",
             "clues": [
               {
@@ -3839,6 +3890,7 @@
             ]
           },
           {
+            "number": 52,
             "name": "Caso 52",
             "clues": [
               {
@@ -3919,6 +3971,7 @@
             ]
           },
           {
+            "number": 53,
             "name": "Caso 53",
             "clues": [
               {
@@ -3994,6 +4047,7 @@
             ]
           },
           {
+            "number": 54,
             "name": "Caso 54",
             "clues": [
               {
@@ -4069,6 +4123,7 @@
             ]
           },
           {
+            "number": 55,
             "name": "Caso 55",
             "clues": [
               {
@@ -4144,6 +4199,7 @@
             ]
           },
           {
+            "number": 56,
             "name": "Caso 56",
             "clues": [
               {
@@ -4219,6 +4275,7 @@
             ]
           },
           {
+            "number": 57,
             "name": "Caso 57",
             "clues": [
               {
@@ -4299,6 +4356,7 @@
             ]
           },
           {
+            "number": 58,
             "name": "Caso 58",
             "clues": [
               {
@@ -4374,6 +4432,7 @@
             ]
           },
           {
+            "number": 59,
             "name": "Caso 59",
             "clues": [
               {
@@ -4449,6 +4508,7 @@
             ]
           },
           {
+            "number": 60,
             "name": "Caso 60",
             "clues": [
               {
@@ -4529,6 +4589,7 @@
         "name": "Livro 4",
         "cases": [
           {
+            "number": 61,
             "name": "Caso 61",
             "clues": [
               {
@@ -4604,6 +4665,7 @@
             ]
           },
           {
+            "number": 62,
             "name": "Caso 62",
             "clues": [
               {
@@ -4679,6 +4741,7 @@
             ]
           },
           {
+            "number": 63,
             "name": "Caso 63",
             "clues": [
               {
@@ -4754,6 +4817,7 @@
             ]
           },
           {
+            "number": 64,
             "name": "Caso 64",
             "clues": [
               {
@@ -4829,6 +4893,7 @@
             ]
           },
           {
+            "number": 65,
             "name": "Caso 65",
             "clues": [
               {
@@ -4904,6 +4969,7 @@
             ]
           },
           {
+            "number": 66,
             "name": "Caso 66",
             "clues": [
               {
@@ -4979,6 +5045,7 @@
             ]
           },
           {
+            "number": 67,
             "name": "Caso 67",
             "clues": [
               {
@@ -5054,6 +5121,7 @@
             ]
           },
           {
+            "number": 68,
             "name": "Caso 68",
             "clues": [
               {
@@ -5129,6 +5197,7 @@
             ]
           },
           {
+            "number": 69,
             "name": "Caso 69",
             "clues": [
               {
@@ -5204,6 +5273,7 @@
             ]
           },
           {
+            "number": 70,
             "name": "Caso 70",
             "clues": [
               {
@@ -5279,6 +5349,7 @@
             ]
           },
           {
+            "number": 71,
             "name": "Caso 71",
             "clues": [
               {
@@ -5354,6 +5425,7 @@
             ]
           },
           {
+            "number": 72,
             "name": "Caso 72",
             "clues": [
               {
@@ -5429,6 +5501,7 @@
             ]
           },
           {
+            "number": 73,
             "name": "Caso 73",
             "clues": [
               {
@@ -5504,6 +5577,7 @@
             ]
           },
           {
+            "number": 74,
             "name": "Caso 74",
             "clues": [
               {
@@ -5579,6 +5653,7 @@
             ]
           },
           {
+            "number": 75,
             "name": "Caso 75",
             "clues": [
               {
@@ -5654,6 +5729,7 @@
             ]
           },
           {
+            "number": 76,
             "name": "Caso 76",
             "clues": [
               {
@@ -5729,6 +5805,7 @@
             ]
           },
           {
+            "number": 77,
             "name": "Caso 77",
             "clues": [
               {
@@ -5804,6 +5881,7 @@
             ]
           },
           {
+            "number": 78,
             "name": "Caso 78",
             "clues": [
               {
@@ -5879,6 +5957,7 @@
             ]
           },
           {
+            "number": 79,
             "name": "Caso 79",
             "clues": [
               {
@@ -5954,6 +6033,7 @@
             ]
           },
           {
+            "number": 80,
             "name": "Caso 80",
             "clues": [
               {
@@ -6034,6 +6114,7 @@
         "name": "Livro 5",
         "cases": [
           {
+            "number": 81,
             "name": "Caso 81",
             "clues": [
               {
@@ -6109,6 +6190,7 @@
             ]
           },
           {
+            "number": 82,
             "name": "Caso 82",
             "clues": [
               {
@@ -6184,6 +6266,7 @@
             ]
           },
           {
+            "number": 83,
             "name": "Caso 83",
             "clues": [
               {
@@ -6259,6 +6342,7 @@
             ]
           },
           {
+            "number": 84,
             "name": "Caso 84",
             "clues": [
               {
@@ -6334,6 +6418,7 @@
             ]
           },
           {
+            "number": 85,
             "name": "Caso 85",
             "clues": [
               {
@@ -6409,6 +6494,7 @@
             ]
           },
           {
+            "number": 86,
             "name": "Caso 86",
             "clues": [
               {
@@ -6484,6 +6570,7 @@
             ]
           },
           {
+            "number": 87,
             "name": "Caso 87",
             "clues": [
               {
@@ -6559,6 +6646,7 @@
             ]
           },
           {
+            "number": 88,
             "name": "Caso 88",
             "clues": [
               {
@@ -6634,6 +6722,7 @@
             ]
           },
           {
+            "number": 89,
             "name": "Caso 89",
             "clues": [
               {
@@ -6709,6 +6798,7 @@
             ]
           },
           {
+            "number": 90,
             "name": "Caso 90",
             "clues": [
               {
@@ -6784,6 +6874,7 @@
             ]
           },
           {
+            "number": 91,
             "name": "Caso 91",
             "clues": [
               {
@@ -6859,6 +6950,7 @@
             ]
           },
           {
+            "number": 92,
             "name": "Caso 92",
             "clues": [
               {
@@ -6934,6 +7026,7 @@
             ]
           },
           {
+            "number": 93,
             "name": "Caso 93",
             "clues": [
               {
@@ -7009,6 +7102,7 @@
             ]
           },
           {
+            "number": 94,
             "name": "Caso 94",
             "clues": [
               {
@@ -7084,6 +7178,7 @@
             ]
           },
           {
+            "number": 95,
             "name": "Caso 95",
             "clues": [
               {
@@ -7159,6 +7254,7 @@
             ]
           },
           {
+            "number": 96,
             "name": "Caso 96",
             "clues": [
               {
@@ -7234,6 +7330,7 @@
             ]
           },
           {
+            "number": 97,
             "name": "Caso 97",
             "clues": [
               {
@@ -7309,6 +7406,7 @@
             ]
           },
           {
+            "number": 98,
             "name": "Caso 98",
             "clues": [
               {
@@ -7384,6 +7482,7 @@
             ]
           },
           {
+            "number": 99,
             "name": "Caso 99",
             "clues": [
               {
@@ -7459,6 +7558,7 @@
             ]
           },
           {
+            "number": 100,
             "name": "Caso 100",
             "clues": [
               {
@@ -7539,6 +7639,7 @@
         "name": "Livro 6",
         "cases": [
           {
+            "number": 101,
             "name": "Caso 101",
             "clues": [
               {
@@ -7609,6 +7710,7 @@
             ]
           },
           {
+            "number": 102,
             "name": "Caso 102",
             "clues": [
               {
@@ -7684,6 +7786,7 @@
             ]
           },
           {
+            "number": 103,
             "name": "Caso 103",
             "clues": [
               {
@@ -7759,6 +7862,7 @@
             ]
           },
           {
+            "number": 104,
             "name": "Caso 104",
             "clues": [
               {
@@ -7834,6 +7938,7 @@
             ]
           },
           {
+            "number": 105,
             "name": "Caso 105",
             "clues": [
               {
@@ -7909,6 +8014,7 @@
             ]
           },
           {
+            "number": 106,
             "name": "Caso 106",
             "clues": [
               {
@@ -7984,6 +8090,7 @@
             ]
           },
           {
+            "number": 107,
             "name": "Caso 107",
             "clues": [
               {
@@ -8059,6 +8166,7 @@
             ]
           },
           {
+            "number": 108,
             "name": "Caso 108",
             "clues": [
               {
@@ -8134,6 +8242,7 @@
             ]
           },
           {
+            "number": 109,
             "name": "Caso 109",
             "clues": [
               {
@@ -8209,6 +8318,7 @@
             ]
           },
           {
+            "number": 110,
             "name": "Caso 110",
             "clues": [
               {
@@ -8284,6 +8394,7 @@
             ]
           },
           {
+            "number": 111,
             "name": "Caso 111",
             "clues": [
               {
@@ -8359,6 +8470,7 @@
             ]
           },
           {
+            "number": 112,
             "name": "Caso 112",
             "clues": [
               {
@@ -8434,6 +8546,7 @@
             ]
           },
           {
+            "number": 113,
             "name": "Caso 113",
             "clues": [
               {
@@ -8509,6 +8622,7 @@
             ]
           },
           {
+            "number": 114,
             "name": "Caso 114",
             "clues": [
               {
@@ -8584,6 +8698,7 @@
             ]
           },
           {
+            "number": 115,
             "name": "Caso 115",
             "clues": [
               {
@@ -8659,6 +8774,7 @@
             ]
           },
           {
+            "number": 116,
             "name": "Caso 116",
             "clues": [
               {
@@ -8734,6 +8850,7 @@
             ]
           },
           {
+            "number": 117,
             "name": "Caso 117",
             "clues": [
               {
@@ -8809,6 +8926,7 @@
             ]
           },
           {
+            "number": 118,
             "name": "Caso 118",
             "clues": [
               {
@@ -8884,6 +9002,7 @@
             ]
           },
           {
+            "number": 119,
             "name": "Caso 119",
             "clues": [
               {
@@ -8959,6 +9078,7 @@
             ]
           },
           {
+            "number": 120,
             "name": "Caso 120",
             "clues": [
               {
