@@ -26,31 +26,39 @@ const CaseButton = styled(Button)(({ theme }) => ({
     marginRight: theme.spacing(2)
 }));
 
-const MainScreen = styled(Box)(({ theme }) => ({
+const MainScreen = styled(Box)(() => ({
     maxWidth: '900px',
     margin: 'auto'
 }));
 
+const GridCases = styled(Grid)(() => ({
+    display: 'flex',
+    justifyContent: 'center'
+}));
 
 function Home() {
     return (
         <>
             <MainScreen sx={{ flexGrow: 1 }}>
                 <Grid container>
-                    <Grid xs={12}>
+                    <Grid item xs={12}>
                         <Title>Scotland Yard</Title>
                     </Grid>
-                    <Grid xs={12}>
+                    <Grid item xs={12}>
                         {scotlandYardTips.books.map((book) =>
-                            <Grid container >
-                                <Grid xs={12}>
-                                    <Book>{book.name}</Book>
+                            <Grid container key={book.name}>
+                                <Grid item xs={12}>
+                                    <Book>
+                                        {book.name}
+                                    </Book>
                                 </Grid>
 
                                 {book.cases.map((caseNumber) =>
-                                    <Grid sm={3} xs={6}  style={{display: 'flex', justifyContent: 'center'}}>
-                                        <CaseButton variant='contained'>{caseNumber.name}</CaseButton>
-                                    </Grid>
+                                    <GridCases item sm={3} xs={6} key={caseNumber.name} >
+                                        <CaseButton variant='contained'>
+                                            {caseNumber.name}
+                                        </CaseButton>
+                                    </GridCases>
                                 )}
                             </Grid>
                         )}
