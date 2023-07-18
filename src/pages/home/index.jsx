@@ -6,12 +6,13 @@ import scotlandYardTips from '../../assets/scotland_yard_tips.json'
 const Title = styled(Box)(({ theme }) => ({
     ...theme.typography.h1,
     margin: theme.spacing(4),
+    marginBottom: theme.spacing(0),
     textAlign: 'center'
 }));
 
 const Book = styled(Box)(({ theme }) => ({
     ...theme.typography.h4,
-    margin: theme.spacing(4),
+    margin: theme.spacing(2),
     color: theme.palette.text.primary,
 }));
 
@@ -20,13 +21,13 @@ const CaseButton = styled(Button)(({ theme }) => ({
     margin: theme.spacing(1),
     color: theme.palette.text.secondary,
     width: '100%',
-    maxWidth: '250px',
-    marginLeft: '20px',
-    marginRight: '20px'
+    maxWidth: '170px',
+    marginLeft: theme.spacing(2),
+    marginRight: theme.spacing(2)
 }));
 
 const MainScreen = styled(Box)(({ theme }) => ({
-    maxWidth: '700px',
+    maxWidth: '900px',
     margin: 'auto'
 }));
 
@@ -47,7 +48,7 @@ function Home() {
                                 </Grid>
 
                                 {book.cases.map((caseNumber) =>
-                                    <Grid xs={6} style={{display: 'flex', justifyContent: 'center'}}>
+                                    <Grid sm={3} xs={6}  style={{display: 'flex', justifyContent: 'center'}}>
                                         <CaseButton variant='contained'>{caseNumber.name}</CaseButton>
                                     </Grid>
                                 )}
