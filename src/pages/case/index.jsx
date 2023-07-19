@@ -17,10 +17,10 @@ const MainScreen = styled(Box)(() => ({
 }));
 
 const findClues = (bookNumber, caseNumber) => {
-  const book = json.books.find((b) => b.number == bookNumber);
-  const caseObject = book.cases.find(c => c.number == caseNumber) || {};
+  const book = json.books.find((b) => b.number === parseInt(bookNumber));
+  const caseObject = book.cases.find(c => c.number === parseInt(caseNumber)) || {};
 
-  return caseObject?.clues;
+  return caseObject.clues;
 }
 
 function Case() {
@@ -29,8 +29,10 @@ function Case() {
   const [unlocked, setUnlocked] = useState([]);
 
   const onChange = (clue) => {
-    if (window.confirm(`Tem certeza que deseja abrir a dica ${clue.name}?`))
-      setUnlocked([...unlocked, clue.name]);
+    if (!unlocked.includes(clue.name)) {
+      if (window.confirm(`Tem certeza que deseja abrir a dica ${clue.name}?`))
+        setUnlocked([...unlocked, clue.name]);
+    }
   }
 
   return (
