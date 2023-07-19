@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography, styled } from '@mui/material';
+import React, { useEffect, useState } from 'react'
+import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography, styled, Button } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useParams } from 'react-router-dom';
 import json from '../../assets/scotland_yard_tips.json';
@@ -16,25 +16,46 @@ const MainScreen = styled(Box)(() => ({
   margin: 'auto'
 }));
 
-const findClues = (bookNumber, caseNumber) => {
+const findCurrentCase = (bookNumber, caseNumber) => {
   const book = json.books.find((b) => b.number === parseInt(bookNumber));
-  const caseObject = book.cases.find(c => c.number === parseInt(caseNumber)) || {};
+  return book.cases.find(c => c.number === parseInt(caseNumber)) || {}
+}
 
-  return caseObject.clues;
+function ExpandButton({ unlocked }) {
+  if (unlocked) {
+    return <ExpandMoreIcon />
+  } else {
+    return <Button variant='contained' color='error'>Revelar</Button>
+  }
 }
 
 function Case() {
   const { bookNumber, caseNumber } = useParams()
-  const clues = findClues(bookNumber, caseNumber);
-  const [unlocked, setUnlocked] = useState([]);
+  const [currentCase, setCurrentCase] = useState({ clues: [] })
+  const [unlockedClues, setUnlockedClues] = useState(new Set([]));
+  const [expandedClues, setExpandedClues] = useState(new Set([]));
 
-  const onChange = (clue) => {
-    if (!unlocked.includes(clue.name)) {
-      if (window.confirm(`Tem certeza que deseja abrir a dica ${clue.name}?`))
-        setUnlocked([...unlocked, clue.name]);
+  useEffect(() => {
+    setCurrentCase(findCurrentCase(bookNumber, caseNumber));
+  }, [])
+
+  const onChange = (clueName) => {
+    if (!unlockedClues.has(clueName)) {
+      if (window.confirm(`Tem certeza que deseja abrir a dica ${clueName}?`))
+        setUnlockedClues(new Set([...unlockedClues, clueName]));
+      setExpandedClues(new Set([...expandedClues, clueName]))
+    } else {
+      let updated = new Set(expandedClues)
+      if (expandedClues.has(clueName)) {
+        updated.delete(clueName)
+
+      } else {
+        updated.add(clueName)
+      }
+      setExpandedClues(updated)
     }
   }
-
+  
   return (
     <>
       <MainScreen sx={{ flexGrow: 1 }}>
@@ -43,10 +64,14 @@ function Case() {
             <Title>Caso {caseNumber}</Title>
           </Grid>
           <Grid item xs={12}>
-            {clues.map(clue =>
-              <Accordion onChange={(e) => { onChange(clue) }} expanded={unlocked.includes(clue.name)}>
+            {currentCase.clues.map(clue =>
+              <Accordion
+                onChange={() => { onChange(clue.name) }}
+                expanded={expandedClues.has(clue.name)}
+                key={clue.number}
+              >
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  expandIcon={<ExpandButton unlocked={unlockedClues.has(clue.name)} />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -65,4 +90,4 @@ function Case() {
     </>
   );
 }
-export default Case;
+export default Case
